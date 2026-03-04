@@ -1,3 +1,4 @@
+![Build and Test Dev Environment](https://github.com/HillZhang2004/flask-on-docker-advanced/actions/workflows/ci.yml/badge.svg?branch=main)
 # Flask on Docker, Postgres, Gunicorn, and Nginx
 
 A Dockerized Flask web application built with a production-style multi-service architecture. The project uses Flask for the application layer, Postgres for persistence, Gunicorn as the WSGI server, and Nginx as the reverse proxy and static/media file server. It includes image upload and retrieval, shared Docker volumes, and separate development and production-style configurations.
